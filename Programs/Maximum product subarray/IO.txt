@@ -1,0 +1,14 @@
+INPUT:
+4
+4 3 -1 6
+OUTPUT:
+12
+INPUT:
+0
+OUTPUT:
+0
+INPUT:
+7
+8 9 6 -3 0 2 -5
+OUTPUT:
+432

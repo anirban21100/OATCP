@@ -5,6 +5,8 @@ int INF = int(1e9 + 7);
 
 int maxRotateFunction(vector<int> &A)
 {
+    if (A.size() == 0)
+        return 0;
     int sum = 0, F0 = 0, res = INT_MIN;
     for (int i = 0; i < A.size(); i++)
     {
@@ -24,20 +26,15 @@ int maxRotateFunction(vector<int> &A)
 
 int main()
 {
-    int t;
-    cin >> t;
-    while (t--)
+    int n;
+    cin >> n;
+    vector<int> nums;
+    while (n--)
     {
-        int n;
-        cin >> n;
-        vector<int> nums;
-        while (n--)
-        {
-            int x;
-            cin >> x;
-            nums.push_back(x);
-        }
-        int res = maxRotateFunction(nums);
-        cout << res % INF << endl;
+        int x;
+        cin >> x;
+        nums.push_back(x);
     }
+    int res = maxRotateFunction(nums);
+    cout << res % INF << endl;
 }
