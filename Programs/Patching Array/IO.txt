@@ -1,0 +1,10 @@
+INPUT:
+1 2 7 8
+25
+OUTPUT:
+2
+INPUT:
+1 3 6 9 10
+45
+OUTPUT:
+2
