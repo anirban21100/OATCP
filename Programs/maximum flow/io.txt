@@ -13,4 +13,4 @@ INPUT:
 
 OUTPUT:
 
-2
+7
